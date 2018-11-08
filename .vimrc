@@ -8,6 +8,7 @@ set incsearch
 set number
 syntax on
 set tabstop=2
+set background=dark
 
 if &t_Co > 2 || has("gui_running")
 	syntax on
