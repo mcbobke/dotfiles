@@ -5,6 +5,9 @@ set history=50
 set ruler
 set showcmd
 set incsearch
+set number
+syntax on
+set tabstop=2
 
 if &t_Co > 2 || has("gui_running")
 	syntax on
