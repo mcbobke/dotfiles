@@ -7,7 +7,11 @@ set showcmd
 set incsearch
 set number
 syntax on
-set tabstop=1
+set tabstop=4
+set softtabstop=4
+set expandtab
+set smarttab
+set shiftwidth=4
 set background=dark
 
 if &t_Co > 2 || has("gui_running")
