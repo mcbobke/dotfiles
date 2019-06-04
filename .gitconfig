@@ -3,3 +3,5 @@
 	name = Matt Bobke
 [push]
 	default = simple
+[core]
+	editor = vim
