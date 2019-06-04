@@ -1,3 +1,5 @@
 [user]
 	email = mcbobke@gmail.com
 	name = Matt Bobke
+[push]
+	default = simple
