@@ -13,7 +13,7 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set background=dark
-
+colorscheme desert
 if &t_Co > 2 || has("gui_running")
 	syntax on
 	set hlsearch
