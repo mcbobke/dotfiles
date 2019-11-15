@@ -13,4 +13,3 @@ fi
 
 cp -f -t ~ .bashrc .bash_aliases .vimrc .gitconfig
 echo Dotfiles copied to home folder
-source ~/.bashrc
