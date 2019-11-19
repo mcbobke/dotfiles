@@ -29,7 +29,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'stephpy/vim-yaml'
 Plugin 'scrooloose/syntastic'
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'altercation/vim-colors-solarized'
 Plugin 'klen/python-mode'
 
 " All of your Plugins must be added before the following line
@@ -64,7 +64,7 @@ set background=dark
 set visualbell
 set noerrorbells
 let g:pymode_python = 'python3'
-colorscheme solarized
+" colorscheme solarized
 if &t_Co > 2 || has("gui_running")
 	syntax on
 	set hlsearch
