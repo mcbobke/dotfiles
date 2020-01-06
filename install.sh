@@ -11,5 +11,5 @@ else
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
 
-cp -f -t ~ .bashrc .bash_aliases .vimrc .gitconfig
+cp -f -t ~ .bashrc .bash_aliases .vimrc .gitconfig .tmux.conf
 echo Dotfiles copied to home folder
