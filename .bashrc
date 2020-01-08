@@ -15,6 +15,20 @@ export EDITOR=vim
 
 # User specific aliases and functions
 
+show256colors () {
+    if [ -z $1 ]; then
+        BREAK=4
+    else
+        BREAK=$1
+    fi
+    for i in {0..255} ; do
+        printf "\x1b[38;5;${i}mcolour${i} \t"
+        if [ $(( i % $BREAK )) -eq $(($BREAK-1)) ] ; then
+            printf "\n"
+        fi
+    done
+}
+
 # Prompt (always leave this at the end)
 # First prompt: if running as effective user ID 0 (root)
 if [[ $EUID -eq 0 ]]; then
