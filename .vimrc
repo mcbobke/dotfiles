@@ -63,6 +63,7 @@ set shiftwidth=4
 set background=dark
 set visualbell
 set noerrorbells
+set pastetoggle=<F3>
 let g:pymode_python = 'python3'
 " colorscheme solarized
 if &t_Co > 2 || has("gui_running")
