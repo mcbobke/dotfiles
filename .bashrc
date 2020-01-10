@@ -9,12 +9,10 @@ if [[ -f ~/.bash_aliases ]]; then
 	. ~/.bash_aliases
 fi
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
+# Environment variables
 export EDITOR=vim
 
 # User specific aliases and functions
-
 show256colors () {
     if [ -z $1 ]; then
         BREAK=4
