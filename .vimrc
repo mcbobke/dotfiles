@@ -31,6 +31,7 @@ Plugin 'scrooloose/syntastic'
 " Plugin 'altercation/vim-colors-solarized'
 Plugin 'klen/python-mode'
 Plugin 'stephpy/vim-yaml'
+Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
 " All of your Plugins must be added before the following line
