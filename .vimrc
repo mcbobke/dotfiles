@@ -27,11 +27,11 @@ Plugin 'VundleVim/Vundle.vim'
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
-Plugin 'stephpy/vim-yaml'
 Plugin 'scrooloose/syntastic'
 " Plugin 'altercation/vim-colors-solarized'
 Plugin 'klen/python-mode'
 Plugin 'stephpy/vim-yaml'
+Plugin 'plasticboy/vim-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
