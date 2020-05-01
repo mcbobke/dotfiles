@@ -9,6 +9,7 @@ then
     echo Vundle git repo updated
 else
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    echo Vundle git repo cloned to ~/.vim/bundle/Vundle.vim
 fi
 
 cp -f -t ~ .bashrc .bash_aliases .vimrc .gitconfig .tmux.conf
