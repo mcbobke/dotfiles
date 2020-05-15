@@ -56,7 +56,6 @@ set ruler
 set showcmd
 set incsearch
 set showmatch
-set number
 set tabstop=4
 set softtabstop=4
 set expandtab
