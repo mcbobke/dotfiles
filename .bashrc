@@ -11,6 +11,7 @@ fi
 
 # Environment variables
 export EDITOR=vim
+export PATH=$PATH:$HOME/bin
 
 # User specific aliases and functions
 show256colors () {
