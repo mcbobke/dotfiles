@@ -28,6 +28,8 @@ show256colors () {
     done
 }
 
+umask 027
+
 # Prompt (always leave this at the end)
 # First prompt: if running as effective user ID 0 (root)
 if [[ $EUID -eq 0 ]]; then
