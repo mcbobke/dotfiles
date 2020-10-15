@@ -30,6 +30,10 @@ show256colors () {
 
 umask 027
 
+# ASDF for managing runtime versions
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
 # Prompt (always leave this at the end)
 # First prompt: if running as effective user ID 0 (root)
 if [[ $EUID -eq 0 ]]; then
