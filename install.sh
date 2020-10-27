@@ -12,5 +12,11 @@ else
     echo Vundle git repo cloned to ~/.vim/bundle/Vundle.vim
 fi
 
+if [ ! -d ~/.asdf ]
+then
+    git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0 > /dev/null
+    echo asdf git repo cloned to ~/.asdf
+fi
+
 cp -f -t ~ .bashrc .bash_aliases .vimrc .gitconfig .tmux.conf
 echo Dotfiles copied to home folder
