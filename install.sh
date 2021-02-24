@@ -18,5 +18,5 @@ then
     echo asdf git repo cloned to ~/.asdf
 fi
 
-cp -f -t ~ .bashrc .bash_aliases .vimrc .gitconfig .tmux.conf
+cp -f -t ~ .bashrc .bash_aliases .vimrc .gitconfig .tmux.conf .bash_profile
 echo Dotfiles copied to home folder
